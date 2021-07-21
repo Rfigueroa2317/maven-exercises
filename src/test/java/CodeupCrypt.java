@@ -2,19 +2,26 @@ import org.junit.Test;
 
 public class CodeupCrypt {
 
+    public static double version;
 
     public static void main(String[] args) {
     }
 
     @Test
     public static void version(){
-
     }
 
     @Test
     public static String hashPassword(String str){
-        String example = "howtodoinjava.com";
-        System.out.println(example.hashCode());
+        String hash = "";
+        for( char character : hash.toCharArray()){
+            switch (character){
+                case 'a':
+                case 'A':
+                    hash =+ 4;
+                    break;
+            }
+        }
         return example;
     }
 
