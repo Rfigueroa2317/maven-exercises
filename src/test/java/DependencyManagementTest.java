@@ -8,8 +8,5 @@ public class DependencyManagementTest {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter some text here: ");
         String message = scanner.nextLine();
-
     }
-
-
 }
